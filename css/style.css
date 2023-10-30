@@ -1,0 +1,128 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 30%;
+}
+.sun{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.two{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: looping 20s linear infinite;
+}
+.mercury{
+    width: 50px;
+    position: absolute;
+    top:-15px;
+    left:50%;
+    transform: translateX(-50%);
+    animation: looping 0.3s linear infinite;
+}
+.three{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: looping 40s linear infinite;
+}
+.mars{
+    width: 80px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: looping 0.6s linear infinite;
+}
+.four{
+    width: 620px;
+    height: 620px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: looping 60s linear infinite;
+}
+.earth{
+    width: 100px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: looping 5s linear infinite;
+}
+.five{
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: looping 80s linear infinite;
+}
+.jupiter{
+    width: 130px;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: looping 7s linear infinite;
+}
+.six{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: looping 120s linear infinite;
+}
+.venus{
+    width: 150px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: looping 10s linear infinite;
+}
+@keyframes looping {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
